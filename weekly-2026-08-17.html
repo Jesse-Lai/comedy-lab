@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comedy Weekly — August 10–16, 2026</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a0a;color:#e0e0e0;font-family:'SF Pro Text',-apple-system,system-ui,sans-serif;line-height:1.7;padding:32px 24px 80px}
+.container{max-width:720px;margin:0 auto}
+h1{font-size:1.6rem;margin-bottom:8px;color:#fff}
+.subtitle{color:#777;font-size:0.85rem;margin-bottom:32px}
+h2{font-size:1.1rem;color:#fff;margin:28px 0 12px;border-bottom:1px solid #1e1e1e;padding-bottom:8px}
+h3{font-size:0.95rem;color:#ccc;margin:20px 0 8px}
+ul{list-style:none;padding:0}
+li{padding:8px 12px;border-radius:8px;margin-bottom:6px;background:#111;border:1px solid #1a1a1a;font-size:0.9rem}
+li:hover{border-color:#333}
+.tag{font-size:0.7rem;padding:2px 8px;border-radius:12px;margin-left:8px;vertical-align:middle}
+.tag-hot{background:rgba(255,107,53,0.15);color:#ff6b35}
+.tag-new{background:rgba(48,209,88,0.15);color:#30d158}
+.tag-dev{background:rgba(94,92,230,0.15);color:#5e5ce6}
+.section-label{font-size:0.75rem;text-transform:uppercase;letter-spacing:1px;color:#555;margin-bottom:8px}
+.highlight-box{background:#1a1200;border:1px solid #3d2e00;border-radius:12px;padding:16px;margin:16px 0}
+.highlight-box p{font-size:0.9rem;color:#f5c842}
+.fb-wrap{display:inline-flex;gap:4px;margin-left:8px;vertical-align:middle}
+.fb-btn{background:none;border:1px solid transparent;border-radius:6px;cursor:pointer;font-size:0.85rem;padding:2px 6px;opacity:0;transition:all 0.2s;line-height:1}
+li:hover .fb-btn,.ref-card:hover .fb-btn{opacity:0.5}
+.fb-btn:hover{opacity:0.8!important;border-color:#333}
+.fb-btn.active-up{opacity:1!important;background:rgba(48,209,88,0.15);border-color:#30d158}
+.fb-btn.active-down{opacity:1!important;background:rgba(255,59,48,0.15);border-color:#ff3b30}
+.fb-bar{position:fixed;bottom:0;left:0;right:0;z-index:999;background:rgba(14,14,14,0.95);backdrop-filter:blur(12px);border-top:1px solid #1e1e1e;padding:10px 24px;display:flex;align-items:center;justify-content:space-between;font-size:0.8rem;color:#777;transform:translateY(100%);transition:transform 0.3s}
+.fb-bar.visible{transform:translateY(0)}
+.fb-bar .count{color:#30d158;font-weight:600}
+.fb-bar button{background:#ff6b35;color:#000;border:none;border-radius:8px;padding:8px 20px;font-weight:600;font-size:0.8rem;cursor:pointer;font-family:inherit}
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>🎤 Comedy Weekly — August 10–16</h1>
+<p class="subtitle">A light week, but two clean angles emerged: East Asian guilt around rest, and a dark little leg-day reversal.</p>
+
+<h2>🔥 Top Premises</h2>
+<p class="section-label">Best material worth testing soon</p>
+<ul>
+<li>East Asian rest isn't relaxation — it's guilt. The scariest thing isn't having no work, it's looking like you have no work.<span class="tag tag-hot">🔥</span><span class="fb-wrap" data-jid="joke-1"><button class="fb-btn" data-vote="up" onclick="vote(this)">👍</button><button class="fb-btn" data-vote="down" onclick="vote(this)">👎</button></span></li>
+<li>My boss went on vacation, the whole company got quiet, and I accidentally had a gap week at work. Even with nothing to do, my East Asian DNA still made it feel illegal.<span class="tag tag-hot">🔥</span><span class="fb-wrap" data-jid="joke-2"><button class="fb-btn" data-vote="up" onclick="vote(this)">👍</button><button class="fb-btn" data-vote="down" onclick="vote(this)">👎</button></span></li>
+<li>I saw a guy on crutches at the gym and felt jealous. He doesn't skip leg day — leg day skips him.<span class="tag tag-hot">🔥</span><span class="fb-wrap" data-jid="joke-3"><button class="fb-btn" data-vote="up" onclick="vote(this)">👍</button><button class="fb-btn" data-vote="down" onclick="vote(this)">👎</button></span></li>
+</ul>
+
+<h2>💡 New One-Liners</h2>
+<p class="section-label">Tight lines in the right direction</p>
+<ul>
+<li>White people take summer vacation. East Asians take summer anxiety.<span class="tag tag-new">NEW</span><span class="fb-wrap" data-jid="joke-4"><button class="fb-btn" data-vote="up" onclick="vote(this)">👍</button><button class="fb-btn" data-vote="down" onclick="vote(this)">👎</button></span></li>
+<li>If my calendar is empty for one day, I don't feel rested. I feel unemployed.<span class="tag tag-new">NEW</span><span class="fb-wrap" data-jid="joke-5"><button class="fb-btn" data-vote="up" onclick="vote(this)">👍</button><button class="fb-btn" data-vote="down" onclick="vote(this)">👎</button></span></li>
+<li>At a crowded swimming pool, you're not exercising anymore. You're just showering with strangers.<span class="tag tag-new">NEW</span><span class="fb-wrap" data-jid="joke-6"><button class="fb-btn" data-vote="up" onclick="vote(this)">👍</button><button class="fb-btn" data-vote="down" onclick="vote(this)">👎</button></span></li>
+<li>Some people are too injured to train legs. That's not skipping leg day — that's getting medically unsubscribed.<span class="tag tag-dev">DEV</span><span class="fb-wrap" data-jid="joke-7"><button class="fb-btn" data-vote="up" onclick="vote(this)">👍</button><button class="fb-btn" data-vote="down" onclick="vote(this)">👎</button></span></li>
+</ul>
+
+<h2>🧩 What Feels Promising</h2>
+<p class="section-label">Why these might actually be useful on stage</p>
+
+<div class="highlight-box">
+<p>💥 Best usable angle this week: guilt as an East Asian resting state. It's specific, visual, and flexible — it can connect work material, vacation material, and even empty-calendar anxiety in one system.</p>
+</div>
+
+<ul>
+<li>The “rest = guilt” cluster feels more original than a generic overwork joke because the tension is internal, not just corporate.<span class="fb-wrap" data-jid="ref-1"><button class="fb-btn" data-vote="up" onclick="vote(this)">👍</button><button class="fb-btn" data-vote="down" onclick="vote(this)">👎</button></span></li>
+<li>“Leg day skips him” is funny because it flips a very familiar gym cliché with almost no extra words.<span class="fb-wrap" data-jid="ref-2"><button class="fb-btn" data-vote="up" onclick="vote(this)">👍</button><button class="fb-btn" data-vote="down" onclick="vote(this)">👎</button></span></li>
+<li>The swimming-pool line works as a quick public-space observation, but probably wants a second beat if it goes on stage.<span class="fb-wrap" data-jid="ref-3"><button class="fb-btn" data-vote="up" onclick="vote(this)">👍</button><button class="fb-btn" data-vote="down" onclick="vote(this)">👎</button></span></li>
+</ul>
+
+<h2>📋 Suggested Next Moves</h2>
+<ul>
+<li><strong>Most stageable this week:</strong> “The scariest thing isn't having no work, it's looking like you have no work.” That one has premise + attitude already.</li>
+<li><strong>Use the crutches bit as a tag, not a full chunk:</strong> it hits best as a quick dark aside inside the gym set.</li>
+<li><strong>Possible mini-run:</strong> summer vacation → empty calendar anxiety → East Asian guilt → crowded pool/public-space loss of privacy.</li>
+</ul>
+
+</div>
+
+<div class="fb-bar" id="fbBar"><span>Marked <span class="count" id="fbCount">0</span> votes</span><button onclick="exportFeedback()">📋 Copy Feedback</button></div>
+<script src="feedback.js"></script>
+</body>
+</html>
